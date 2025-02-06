@@ -2,7 +2,7 @@ function stringChop(str, size) {
   // your code here
 	if(str=="")
 		return []
-
+     let result =[]
 	for(let i =0;i<str.length;i+=size){
 	if (i + size <= str.length) {
       result.push(str.slice(i, i + size));
