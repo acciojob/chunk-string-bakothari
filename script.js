@@ -9,7 +9,7 @@ function stringChop(str, size) {
     } else {
       result.push(str.slice(i));
     }
-		return str
+		return result
 }
 
 // Do not change the code below
